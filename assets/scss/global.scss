@@ -1,0 +1,13 @@
+
+@mixin mq( $vp: pc ){
+
+  $mqs: (
+    'pc': '(min-width: 480px)',
+    'sp': '(max-width: 480px)'
+  );
+
+  @media #{ map-get($mqs, $vp) }{
+    @content;
+  }
+
+}

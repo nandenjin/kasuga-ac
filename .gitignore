@@ -1,0 +1,12 @@
+
+# NPMモジュール
+node_modules/
+
+# nuxt.js データセット
+.nuxt/
+
+# nuxt.js 静的データ書き出し先
+dist/
+
+# ログ
+*.log
