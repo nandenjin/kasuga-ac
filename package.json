@@ -2,13 +2,9 @@
   "name": "kasuga-ac",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "run-p build build-watch serve",
-    "serve": "firebase serve",
-    "build": "nuxt generate",
-    "build-watch": "chokidar '(pages|static|middleware|layouts|components|assets)/**' --command 'npm run build'"
+    "dev": "nuxt dev",
+    "build": "nuxt generate"
   },
   "repository": {
     "type": "git",
