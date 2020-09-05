@@ -10,3 +10,6 @@ dist/
 
 # ログ
 *.log
+
+# Firebase キャッシュ
+/.firebase
